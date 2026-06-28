@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fira+Code:wght@300..700&family=Fjalla+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { /* Se empieza con esto para que no haya espacios raros */ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.titulo-principal {
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+    
+    margin: 0;
+    padding: 20px;
+    
+    letter-spacing: 10px;
+    transition: 1s ease-in-out;
+    
+}
+
+
+body {
+    background-color: rgb(245, 234, 208);
+    font-family: "Black Ops One", system-ui;
+}
+
+/* Encabezado del carrito */
+header {
+    background-color: black;
+   
+}
+
+.navegador {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding: 7px;
+    margin-left: 100px;
+    
+    
+
+}
+
+.remeras,
+.gorras,
+.patinetas,
+.carrito {
+    padding-right: 200px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 41px;
+    
+}
+
+a:hover {
+    color: gray;
+}
+
+
+
+.barra-superior {
+    display: flex;
+    
+    background-color: rgb(245, 234, 208);
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.contenido-barra{
+    display: inline-flex;
+    gap: 80px;
+    animation: deslizar 20s linear infinite;
+    font-size: 12px;
+}
+
+
+
+/* Anima a la barra */
+@keyframes deslizar{
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+
+/* Tabla del carrito */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgb(245, 234, 208);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+table th {
+    background-color: black;
+    color: aliceblue;
+    letter-spacing: 3px;
+}
+
+table td {
+    background-color: white;
+}
+
+
+.total {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+    font-family: 'Fira Code', monospace;
+}
+
+
+.btn {
+    
+    width: 250px;
+    padding: 10px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Black Ops One", system-ui;
+    background-color: aliceblue;
+}
+
+
+
+.seguir,
+.finalizar {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+
+}
+
+
+.btn {
+    
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    color: rgb(9, 122, 70);
+}
+
+
+
+
+.btn:hover {
+    color: rgb(9, 122, 70);
+}
+
+
+.btn-eliminar {
+    padding: 5px;
+    font-family: "Black Ops One", system-ui;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+
+.btn-eliminar:hover {
+    color: rgb(255, 0, 0);
+}

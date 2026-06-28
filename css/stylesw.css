@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fira+Code:wght@300..700&family=Fjalla+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: rgb(245, 234, 208);
+
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    font-family: "Black Ops One", system-ui;
+
+}
+
+
+input {
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    font-family: cursive;
+    
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.boton {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.contener-input {
+    display: flex;
+    justify-content: center;
+}
